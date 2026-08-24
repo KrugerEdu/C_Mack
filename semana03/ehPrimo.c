@@ -12,17 +12,18 @@ int ehprimo(int n, int primo, int i) {
             primo = 0;
         }
     }
-    if (primo == 1) {
-        printf("Primo");
-    } else {
-        printf("Nao primo");
-    }
+    return primo;
 }
 
 int main() {
     int n, i, primo;
+    char *r;
+    r = "s";
     printf("Digite um numero e descobra se ele eh primo: \n");
     scanf("%d", &n);
-    printf("Eh Primo?: %d\n", ehprimo(n, primo, i));
+    if (ehprimo(n, primo, i) == 0) {
+        r = "n";
+    }
+    printf("Eh Primo?: %s\n", r);
     return 0;
 }
