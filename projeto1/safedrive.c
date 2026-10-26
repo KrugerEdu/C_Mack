@@ -1,3 +1,6 @@
+//Nome: Eduardo Kruger da Cunha
+//RA: 10239330
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
