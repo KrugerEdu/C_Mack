@@ -1,0 +1,20 @@
+adventures, 1
+blondes, 1
+came, 1
+disneyland, 3
+fork, 1
+going, 1
+home, 1
+left, 1
+read, 1
+road, 1
+sign, 1
+so, 1
+text, 1
+they, 2
+two, 1
+went, 1
+were, 1
+when, 1
+
+total de palavras diferentes no dicionario = 18
